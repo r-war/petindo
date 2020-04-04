@@ -1,0 +1,268 @@
+/** 2.1. Reset **/
+html, body, div, span, applet, object, iframe,
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+
+a, abbr, acronym, address, big, cite, code,
+
+del, dfn, em, font, ins, kbd, q, s, samp,
+
+small, strike, strong, sub, sup, tt, var,
+
+dl, dt, dd, ol, ul, li,
+
+fieldset, form, label, legend,
+
+table, caption, tbody, tfoot, thead, tr, th, td {
+
+	border: 0;
+
+	font-size: 100%;
+
+	margin: 0;
+
+	outline: 0;
+
+	padding: 0;
+
+	vertical-align: baseline;
+
+}
+
+body{
+
+	font-size: 14px;
+
+	color: #888888;
+
+	font-family: 'Raleway', sans-serif;
+
+	position: relative;
+
+	overflow-x: hidden;
+
+	overflow-y: auto;  
+
+	right: 0;
+
+	-webkit-transition: right .4s ease-in-out 0s;
+
+	-moz-transition:    right .4s ease-in-out 0s;
+
+	-ms-transition: 	right .4s ease-in-out 0s;
+
+	-o-transition: 		right .4s ease-in-out 0s;
+
+	transition:         right .4s ease-in-out 0s;
+
+}
+
+// h1,
+
+// h2,
+
+// h3,
+
+// h4,
+
+// h5,
+
+// h6 {
+
+// 	clear: both;
+
+// 	color: #373737;
+
+// 	font-family: 'Montserrat', sans-serif;
+
+// }
+
+// h1 {
+
+// 	font-size: 24px;
+
+// }
+
+// h2 {
+
+// 	font-size: 20px;
+
+// }
+
+// h3 {
+
+// 	font-size: 18px;
+
+// }
+
+// h4 {
+
+// 	font-size: 16px;
+
+// }
+
+// h5 {
+
+// 	font-size: 14px;
+
+// }
+
+// h6 {
+
+// 	font-size: 12px;
+
+// }
+
+// p {
+
+// 	margin-bottom: 1.4em;
+
+// 	line-height: 24px;
+
+// }
+ul{
+	list-style: disc outside;padding:0;
+	li{
+		list-style: none;
+	}
+}
+
+img{
+
+	border:none;
+
+	max-width:100%;	
+
+	height: auto;
+
+}
+
+a{
+
+	color:$gray-darker;
+
+}
+
+a:hover{
+
+	color: $brand-primary;
+
+	text-decoration:none;
+
+}
+
+a:focus{
+
+	text-decoration: none;
+
+	color: inherit;
+
+	outline: none;
+
+}
+
+a, 
+
+button, 
+
+input {
+
+	transition: all 0.3s ease-in-out 0s;
+
+	-moz-transition: all 0.3s ease-in-out 0s;
+
+	-o-transition: all 0.3s ease-in-out 0s;
+
+	-webkit-transition: all 0.3s ease-in-out 0s;
+
+	-ms-transition: all 0.3s ease-in-out 0s;
+
+}
+
+input[type=text],
+
+input[type=email],
+
+input[type=password],
+
+input[type=number],
+
+input[type=search],
+
+textarea {
+
+	border: 1px solid #b5b5b5;
+
+	padding: 8px 15px;
+
+	font-size: 14px;
+
+	color: #757575;
+
+	border-radius: 0;
+
+	font-family: 'Raleway', sans-serif;
+
+}
+
+button,
+
+input[type=text]:focus,
+
+input[type=email]:focus,
+
+input[type=password]:focus,
+
+input[type=number]:focus,
+
+input[type=search]:focus,
+
+textarea:focus {
+
+
+
+	outline: none;
+
+}
+
+input[type=submit] {
+
+	font-family: 'Montserrat', sans-serif;
+
+}
+fieldset {
+    border: 0 none;
+    margin: 0;
+    min-width: 0;
+    padding: 0;
+}
+fieldset { 
+
+    border: 2px groove threedface;
+
+    display: block;
+
+    padding-block-end: 0.75em;
+
+    padding-block-start: 0.35em;
+
+    text-align: center;
+
+}
+
+fieldset legend {
+
+	display: inline-block;
+
+	color: inherit;
+
+	background: none;
+
+	vertical-align: top;
+
+}
+
+			
+			
+			
+			

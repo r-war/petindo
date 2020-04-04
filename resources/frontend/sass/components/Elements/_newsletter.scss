@@ -1,0 +1,121 @@
+.newsletter-v1{
+	padding: 60px 0;
+	background: #333 none repeat scroll 0 0;
+	border-bottom: 1px solid #393939;
+	.newsletter-footer-left{
+		.footer-support{
+			p{
+			    color: #bababa;
+			    font-size: 30px;
+			    letter-spacing: 0;
+			    line-height: 50px;
+			    padding: 0 80px 0 50px ;
+			    text-transform: uppercase;
+			    span{
+			    	&.sign-firts{
+			    		color:#fff;font-weight: bold
+
+			    	}
+			    	&.sign-child{
+			    		color:#e4d136 ;font-weight: bold
+			    	}
+			    }
+			}
+		}
+	}
+	.newsletter-footer-right{
+		min-height: 50px;
+		padding: 0;
+		.subcribe-info{
+			
+				.input-mail{
+					background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+					border: 2px solid #5c5c5c;
+				    font-weight: 400;
+				    padding: 10px 25px;
+				    width: 550px;
+				    color: #666;
+					font-size: 16px;
+				    margin-right: 17px;
+				}
+			
+			.button {
+			    background: #ac2d34 none repeat scroll 0 0 !important;
+			    border: medium none;
+			    padding: 10px 30px;
+			    &:hover {
+				    background: #F0E80B !important;
+				    span{
+				    	color: #222;
+				    }
+				}
+			    span {
+				    border: 3px solid transparent;
+				    color: #fff;
+				    font-size: 20px;
+				    font-weight: bold;
+				}
+			}
+		}
+	}
+}
+.newsletter-v2{
+	h2{
+		font-size: 40px;
+		font-weight: bold;
+		margin-bottom: 35px;
+		color: #dadada;
+	}
+	form{
+			display: block;
+			margin-bottom: 20px;
+		}
+	.subcribe-info{
+		
+		.input-mail{
+			border-color: #333;
+		    color: #888;
+		    margin-right: 30px;
+		    padding: 8px 10px;
+		    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+		    border-style: none none solid solid;
+			border-width: medium medium 3px 3px;
+			font-size: 16px;
+			font-weight: 600;
+			width: 390px;
+
+		}
+	}
+	.button {
+	    background: transparent none repeat scroll 0 0;
+	    border: 0 none;
+	    cursor: pointer;
+	    margin: 0;
+	    overflow: visible;
+	    padding: 0;
+	    width: auto;
+	    &:hover {
+		    background: #e83b4f;
+		    transition: 0.1s all;
+		    span{
+		    	border: 3px solid #e83b4f;
+		    	background: #e83b4f;
+		    }
+		}
+	    span {
+		    border: 3px solid #fff;
+		    color: #dadada;
+		    font-size: 16px;
+		    padding: 12px 30px;
+		    background:$gray-darker;
+		    &:hover{
+		    	background:#e83b4f;
+		    }
+		}
+	}
+	p{
+		color: #888;
+		font-size: 14px;
+		font-weight: 500;
+	}
+}

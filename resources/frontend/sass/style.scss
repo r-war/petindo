@@ -1,0 +1,156 @@
+/**
+
+	Theme Name: Engo Sportwear
+
+	Theme URI: http://engotheme.com/
+
+	Author: Engo Team
+
+	Author URI: http://engotheme.com/
+
+	Description: Engo ABC HTML Template
+
+	Version: 1.0
+
+	Last change:	2016/02/20 [fixed Float bug, vf]
+
+	License: GNU General Public License v2 or later
+
+	Tags: two-columns, left-sidebar, fixed-layout, responsive-layout
+
+	Text Domain: Engotheme
+
+ */
+
+/*	################################################################
+
+	[Table of contents]
+
+	1. Import vendor
+		1.1. Vendor
+			1.1.1. Google fonts
+			1.1.2. Icon Fonts
+		1.2. Bootstrap
+	2. Reset
+		2.1. Reset
+		2.2. Default base
+			2.2.1.	Button
+			2.2.2.	Link
+			2.2.3.	Typography
+			2.2.4.	Heading
+			2.2.5.	Breadcrumb
+			2.2.6.	Social
+			2.2.7.	Table
+	3. Mixins
+	4. Elements
+		4.1. Accordions
+		4.2. News letter
+		4.3. Service
+		4.4. Parallax
+		4.5. Popup
+	5. Ecommerce
+		5.1 Shop General
+		5.2 Product
+		5.3 Shop Widget
+		5.4 Shop Page
+		5.5 Shop Single
+		5.6 Shop Cart
+		5.7 Shop Checkout
+		5.8 Shop Wishlist
+	6. Templates Layout
+		6.1. General
+		6.2. Header
+			6.2.1. General
+			6.2.2. Header version 1
+			6.2.3. Header version 2
+			6.2.4. Header version 3
+			6.2.5. Header version 4
+		6.3. Sidebar
+		6.4. Contents
+			6.4.1. CMS default
+			6.4.2. Blog
+			6.4.3. Brank logo
+			6.4.4. Frershipping
+			6.4.5. Tags
+			6.4.6. To top
+		6.5. Footers
+			6.5.1. Footer Version 1
+			6.5.2. Footer Version 2
+			6.5.3. Footer Version 3
+			6.5.4. Footer Version 4
+		6.6. Home pages
+			6.6.1 Home page 1
+			6.6.2 Home page 2
+			6.6.3 Home page 3
+			6.6.4 Home page 4
+		6.7. Pages
+			6.7.1. About Us
+			6.7.2. Contact Us
+			6.7.3. FAQ's
+			6.7.4. Blog
+			6.7.5. Checkout
+	7. Responsive	
+
+################################################################# */ 
+
+/*==========================================================
+1. Import vendor
+==========================================================*/
+
+/** 1. Import vendor **/
+@import "components/vendor";
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.ttf') ;
+}
+@font-face {
+    font-family: 'Rockwell';
+    src: url('../fonts/Rockwell.ttf') ;
+}
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url('../fonts/Montserrat-Bold.otf') ;
+}
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon932f.ttf') ;
+}
+$font-family-one:'Montserrat';
+$font-family-two:"Rockwell" ;
+$font-family-three:"Lato" ;
+$font-family-five:"icomoon" ;
+
+/** 1.2. Bootstrap **/
+@import "bootstrap";
+
+/*========================================================= 
+2. Reset 
+===========================================================*/
+
+@import "components/reset";
+@import "components/base";
+
+/*========================================================= 
+3. Mixins
+===========================================================*/
+@import "components/engo-mixins";
+
+/*========================================================= 
+4. Elements
+===========================================================*/
+@import "components/elements";
+
+/*========================================================= 
+5. Ecommerce
+===========================================================*/
+@import "components/ecommerce";
+
+/*========================================================= 
+6. Templates Layout
+===========================================================*/
+@import "components/templates-layout";
+
+/*========================================================= 
+7. Responsive
+===========================================================*/
+@import "components/responsive";

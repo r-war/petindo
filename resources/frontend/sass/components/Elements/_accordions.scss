@@ -1,0 +1,72 @@
+.accordion{
+	.panel{
+		@include box-shadow(0 0px 0px rgba(0,0,0,.05) );
+	}
+	.panel-heading{
+		padding: 15px;
+		position: relative;
+		a {	
+		 	text-decoration: none;font-size:14px;
+		 	font-weight: bold;
+			&:before{
+				content: "-";
+	 		    font-size: 22px;
+	 		    font-weight: 300;
+	 		    @include size(20px, 20px);
+	 		    text-align: center;
+	 		    line-height: 16px;
+	 		    display:  inline-block;
+	 		    color: $gray-dark;
+			}
+		 	&.collapsed:before{
+		 		content: "+";
+	 		    font-size: 18px;
+	 		    line-height: 20px;
+		 	}
+		}	
+	}
+	.panel-body{
+		border-top-color: transparent!important;
+	}
+	
+	&.collapse-right{
+		.panel-heading{
+			a:before{
+				position: absolute;
+				@include rtl-right(20px);
+			}
+		}
+	}
+
+	&.collapse-color{
+		.panel-heading a{
+			&:before{
+			    color:#fff;
+			    background:$gray-dark;
+			}
+		}
+	}
+	&.noborder{
+		.panel-heading{
+			padding-left: 0;
+			padding-right: 0;
+		}
+		.panel , .panel-heading, .panel-body{
+			background-color:transparent;
+			border:none;
+		}
+		
+	}
+	&.nobackground{
+		.panel , .panel-heading, .panel-body{
+			background-color:transparent;color:$gray-dark;padding:15px 0;font-size:14px;
+
+		}
+	}
+}
+/* accordion style version 3 */
+.accordion-v3{
+	.panel .panel-heading{
+		border-bottom: solid 1px #ccc;
+	}
+}

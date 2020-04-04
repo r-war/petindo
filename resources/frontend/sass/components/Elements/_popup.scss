@@ -1,0 +1,116 @@
+.modal{
+	top:0px;
+	z-index:9999;
+}
+.modal-content{
+	background:url(../images/home1/1170x600.jpg);
+	background-size:100% 100%;
+	border-radius:0px;
+	border:none;
+	z-index: 9999;
+	width:1170px;
+	margin-top:160px;
+	
+	.modal-header{
+		border-bottom:none;
+		position: relative;
+		.close-modal{
+			position: absolute;
+			right: 0px;
+			top:0px;
+			a{
+				background:$gray-darker url('../images/icon-close.png')no-repeat;
+				// padding:8px 16px;
+				height: 40px;
+				width: 40px;
+				color: #fff;
+				display: block;
+				font-size: 16px;
+				&:hover{
+					background:$brand-primary;
+					background:$gray-darker url('../images/icon-close-hover.png')no-repeat;
+				}
+			}
+		}
+	}
+	.modal-body{padding-top: 100px;}
+
+	.modal-footer{
+		label{color:$gray-dark;font-weight:400;}
+		padding: 165px 55px 30px;
+		border-top:none;
+		.checkbox input:checked+label:after {
+		    content: "\f00c";
+		    font-family: 'FontAwesome';
+		    font-size: 14px;
+		    color: #212121;
+		    position: absolute;
+		    top: 50%;
+		    left: 2px;
+		    transform: translateY(-50%);
+		    -moz-transform: translateY(-50%);
+		    -ms-transform: translateY(-50%);
+		    -webkit-transform: translateY(-50%);
+		    -o-transform: translateY(-50%);
+		}
+	}
+	.popup-content{
+		margin-left: 85px;
+		h3{
+			font-size: 50px;
+			color:$gray-dark;
+			font-weight:600;
+			margin-bottom:10px;
+		}
+		p{
+			font-size: 14px;
+			color:#444;
+			font-weight:400;
+			margin-bottom:20px;
+		}
+		form{
+			display: block;margin-bottom:20px;
+			.input-mail{
+				outline: none;
+				width: 290px;
+				padding: 7px 10px;
+				font-weight: 600;
+				font-size: 16px;
+				color: $gray-dark;
+				border-top: none;
+				border-right: none;
+				border-left: 3px solid rgba(145, 145, 145, 0.48);
+				border-bottom: 3px solid rgba(145, 145, 145, 0.48);
+				background: none;
+				margin-right: 17px;
+			}
+			button{
+				&.button {
+			    	overflow: visible;
+			    	width: auto;border: 0;
+			    	padding: 0;
+			    	margin: 0;
+			    	background: transparent;
+			    	cursor: pointer;
+			    	span{
+			    		span{
+			    			font-weight: bold;
+			    			display: inline-block;
+			    			padding: 8px 30px;
+			    			text-align: center;
+			    			white-space: nowrap; 
+			    			color: $gray-dark;
+			    			line-height: 20px;
+			    			font-size: 14px;
+			    			border: 3px solid rgba(145, 145, 145, 0.48);
+			    		}
+			    	}
+			    	&:hover{
+			    		background:$brand-primary;span{color:#fff}
+			    	}
+				}
+			}
+			
+		}
+	}
+}
